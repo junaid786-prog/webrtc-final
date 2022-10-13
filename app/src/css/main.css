@@ -1,0 +1,301 @@
+.main-container-div {
+    max-width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-button-wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.join-button-wrap input {
+    padding: 5px 10px;
+    width: 40vw;
+    outline: none;
+}
+
+.join-button-wrap h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.join-button {
+    margin-top: 10px;
+}
+
+/* user popup */
+.user-popup-paper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 40vh;
+}
+
+.user-details-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.user-popup-button {
+    background-color: rgb(109, 179, 240);
+    margin-top: 10px;
+}
+
+.room-div {
+    box-sizing: border-box;
+    width: 98vw;
+    height: 97vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 5px;
+    position: relative;
+}
+
+.room-first {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.room-board-part {
+    background-color: white;
+    height: 80vh;
+    width: 70vw;
+    position: relative;
+}
+
+.icons_bar {
+    display: flex;
+}
+
+.top_second svg,
+.bottom_second svg {
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid rgb(200, 199, 199);
+    padding: 5px;
+    font-size: 20px;
+    margin: 0px 2px;
+}
+
+.middle_first {
+    /* flex-direction: column; */
+    /* align-items: center; */
+    position: absolute;
+    top: 10vh;
+    /* justify-content: space-evenly; */
+    max-height: 10vh;
+}
+
+.middle_first_part {
+    display: flex;
+    flex-direction: column;
+    padding-right: 5px;
+}
+
+.middle_second_part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p_small {
+    font-size: 13px;
+    margin: 0px;
+}
+
+.p_medium {
+    font-size: 15px;
+    margin: 0px;
+
+}
+
+.p_large {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.top_second {
+    top: 10px;
+    right: 5px;
+    position: absolute;
+}
+
+.bottom_second {
+    align-items: center;
+    bottom: 10px;
+    right: 5px;
+    position: absolute;
+}
+
+.bottom_second h3 {
+    margin: 0px 3px;
+}
+
+.room-buttons-part {
+    display: flex;
+    width: 50vw;
+    background-color: rgb(211, 209, 209);
+    height: 10vh;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.room-buttons-part svg {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    size: 20px;
+    border-radius: 50%;
+}
+
+#room-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    /* height: 50vh; */
+    width: 28vw;
+    box-sizing: border-box;
+}
+
+.video_container {
+    width: 22vw;
+    /* height: 15vh; */
+    padding: 2px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #938a8a;
+}
+
+video {
+    width: 20vw;
+    /* max-height: 20vh; */
+}
+
+svg {
+    cursor: pointer;
+}
+
+.end-call-btn svg {
+    color: red;
+}
+
+/* chat-div */
+.room-second {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+}
+
+.room-chat-part {
+    width: 25vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    border-radius: 8px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+
+.chat-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.pd_10 {
+    padding: 10px;
+}
+
+.char-header-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+
+.chat-drawer-input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-drawer-input-wrapper svg {
+    background-color: black;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.chat-drawer-input {
+    width: 15vw;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: smaller;
+    background-color: whitesmoke;
+    border: 1px solid rgb(213, 209, 209);
+}
+
+.chat-drawer-list {
+    overflow-y: auto;
+    max-height: 20vh;
+}
+
+.message-container {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.message-title-wrapper {
+    display: flex;
+    align-items: center;
+    max-height: 20px;
+}
+
+.message-title-wrapper h5,
+.message-title-wrapper span {
+    font-size: smaller;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.message-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-timestamp {
+    margin-left: 5px;
+    color: rgb(172, 164, 164);
+}
+
+.actual-message {
+    margin: 2px 0px !important;
+    padding: 5px 10px;
+    font-weight: 400;
+    font-size: smaller;
+    background-color: rgb(200, 194, 194);
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
